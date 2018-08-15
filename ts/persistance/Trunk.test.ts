@@ -1,7 +1,7 @@
 import { Trunk } from "./Trunk";
-import { mockPersister, mockPersistance } from "../../../test/commonMocks";
 import { observable, computed, configure, runInAction } from "mobx";
 import { IPersistable } from "./IPersistable";
+import { mockPersistance } from "../test/commonMocks";
 
 configure({ enforceActions: true });
 
@@ -22,7 +22,7 @@ class Foo implements IPersistable<FooJson> {
 
     fromJson(json: FooJson) {
         this.a = json.a;
-    }
+    }\
 }
 
 let foo: Foo;

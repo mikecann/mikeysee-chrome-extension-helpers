@@ -1,5 +1,5 @@
 import { MembershipStore, millisecondsInADay, Options } from "./MembershipStore";
-import { mockIapStore } from "../../../test/commonMocks";
+import { mockIapStore } from "../test/commonMocks";
 
 let store: MembershipStore;
 

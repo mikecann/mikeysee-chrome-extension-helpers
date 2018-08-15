@@ -1,5 +1,5 @@
 import { IAPStore } from "./IAPStore";
-import { nullLogger, mockCloudService } from "../../../test/commonMocks";
+import { nullLogger, mockCloudService } from "../test/commonMocks";
 
 let store: IAPStore;
 

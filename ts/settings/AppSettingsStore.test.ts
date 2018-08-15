@@ -1,5 +1,5 @@
 import { AppSettingsStore } from "./AppSettingsStore";
-import { nullLogger } from "../../../test/commonMocks";
+import { nullLogger } from "../test/commonMocks";
 
 type Settings = {
     a: string;

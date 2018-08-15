@@ -1,6 +1,6 @@
 {
     "name": "mikeysee-chrome-extension-helpers",
-    "version": "0.0.1",
+    "version": "0.0.5",
     "description": "A bunch of helpers for writing chrome extensions",
     "main": "js/index.js",
     "typings": "js/index.d.ts",

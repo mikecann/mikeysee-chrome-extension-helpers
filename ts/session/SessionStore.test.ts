@@ -1,5 +1,5 @@
 import { SessionStore } from "./SessionStore";
-import { nullLogger, mockIapStore, mockAuthStore } from "../../../test/commonMocks";
+import { nullLogger, mockAuthStore, mockIapStore } from "../test/commonMocks";
 
 let store: SessionStore;
 
