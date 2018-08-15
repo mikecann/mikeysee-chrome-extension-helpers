@@ -1,5 +1,5 @@
 import { AuthStore } from "./AuthStore";
-import { mockChromeService, mockCloudService, nullLogger } from "../../../test/commonMocks";
+import { nullLogger, mockChromeService, mockCloudService } from "../test/commonMocks";
 
 let store: AuthStore;
 
